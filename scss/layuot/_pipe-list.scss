@@ -1,0 +1,14 @@
+.pipe-list {
+  &__frame {
+    width: 245px;
+    height: 175px;
+    border: 1px solid var(--color-text-light);
+    border-radius: 15px;
+  }
+  &__add {
+    background: var(--color-background-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

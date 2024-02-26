@@ -1,0 +1,44 @@
+.card {
+  background-color: var(--color-text-light);
+  color: var(--color-text-dark);
+  position: relative;
+  padding: 25px;
+  &__title {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  &__title > h2 {
+    font-weight: 400;
+    font-size: 21px;
+  }
+  &__pipe-version {
+    background-color: var(--color-background-secondary);
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--color-text-light);
+    border-radius: 15px;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__pipe-address {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  &__pipe-email {
+    font-weight: 400;
+    font-size: 9px;
+  }
+  &__control {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}

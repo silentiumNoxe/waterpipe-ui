@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: var(--color-background-primary);
+  color: var(--color-text-light);
+  font-family: var(--font-primary);
+}
