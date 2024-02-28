@@ -4,42 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Waterpipe main</title>
-    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <h1 class="header__title">Waterpipe</h1>
+      <header class="flex-center-height">
+        <h1>Waterpipe</h1>
       </header>
-      <main class="main">
-        <aside class="main__sidebar">
-          <ul class="main__sidebar__menu">
-            <li class="main__sidebar__menu-item">
+      <main>      
+        <aside>
+          <ul class="menu">
+            <li class="menu-item">
               <a class="link" href="#">pipes</a>
             </li>
-            <li class="main__sidebar__menu-item">
+            <li class="menu-item">
               <a class="link" href="#">nodes</a>
             </li>
-            <li class="main__sidebar__menu-item">
+            <li class="menu-item">
               <a class="link" href="#">settings</a>
             </li>
           </ul>
-          <a class="main__sidebar__api-link link" href="#">API Doc</a>
+          <a class="api-link link" href="#">API Doc</a>
         </aside>
-        <section class="main__pipe-list">
-          <div class="link pipe-list__frame pipe-list__add">
+        <section class="pipe-list">
+          <div class="link frame add flex-center-all">
             <svg width="32" height="32">
               <use href="./images/icons.svg#plus-icon"></use>
             </svg>
           </div>
-          <div class="pipe-list__frame card">
-            <div class="card__title">
+          <div class="card frame">
+            <div class="card-title flex-center-height gap-5">
               <h2>Test pipe</h2>
-              <div class="card__pipe-version">v101</div>
+              <div class="card-pipe-version flex-center-all">v101</div>
             </div>
-            <div class="card__pipe-address">waterpipe.test.test.foo.bar</div>
-            <div class="card__pipe-email">silentium.noxe@gmail.com</div>
-            <div class="card__control">
+            <div class="card-address">waterpipe.test.test.foo.bar</div>
+            <div class="card-email">silentium.noxe@gmail.com</div>
+            <div class="card-control flex-center-height gap-5">
               <a class="link" href="#"
                 ><svg width="25" height="25">
                   <use href="./images/icons.svg#bookmark-icon"></use></svg
