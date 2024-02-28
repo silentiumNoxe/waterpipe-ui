@@ -1,0 +1,18 @@
+.flex-center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-height {
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-5 {
+    gap: 5px;
+}

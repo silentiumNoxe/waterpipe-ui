@@ -1,0 +1,50 @@
+.frame {
+  width: 245px;
+  height: 175px;
+  border: 1px solid var(--color-text-light);
+  border-radius: 15px;
+}
+
+.add {
+  background: var(--color-background-primary);
+}
+
+.card {
+  background-color: var(--color-text-light);
+  color: var(--color-text-dark);
+  position: relative;
+  padding: 25px;
+  font-weight: 400;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-title > h2 {
+  font-size: 21px;
+}
+
+.card-pipe-version {
+  background-color: var(--color-background-secondary);
+  font-size: 21px;
+  color: var(--color-text-light);
+  border-radius: 15px;
+  width: 70px;
+  height: 30px;
+}
+
+.card-address {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.card-email {
+  font-size: 9px;
+}
+
+.card-control {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}

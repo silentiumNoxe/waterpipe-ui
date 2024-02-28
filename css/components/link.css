@@ -1,0 +1,10 @@
+.link {
+  color: currentColor;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--color-hovered);
+}
